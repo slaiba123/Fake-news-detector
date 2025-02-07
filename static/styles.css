@@ -1,0 +1,164 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(/static/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(/static/Poppins/Poppins-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(/static/Poppins/Poppins-Medium.ttf);
+}
+
+
+
+
+body {
+    font-family: Poppins-Regular, Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+
+.heading {
+    color:#372c5e;
+}
+
+.main {
+    background-color: #2c234b;
+    color: white;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purple-line {
+    height: 0px;
+    width: 0px;
+    border-left: 99vw solid transparent; 
+    border-top: 5vw solid #f4f4f4;
+    margin-bottom: -5vw;
+    position: relative;
+    z-index: 2; 
+    box-sizing: border-box;
+
+}
+
+.purple-line-bottom {
+    height: 0px;
+    width: 0px;
+    border-right: 99vw solid transparent;
+    border-bottom: 5vw solid #f4f4f4;
+    margin-top: -5vw;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.main-heading {
+    font-size: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0px;
+    margin: 0px;
+    height: 80px;
+    color: white;
+}
+
+li {
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+textarea {
+    font-family: Poppins-Regular;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 7px 5px #cecdcd;
+    border-radius: 5px;
+
+}
+
+.predict-button {
+    padding: 10px;
+    font-family: Poppins-Bold;
+    background-color: #372c5e;
+    margin: 15px 0px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 7px 5px #cecdcd;
+
+}
+
+.predict-button:hover {
+    background-color: #161227;
+    cursor: pointer;
+    color: rgb(235, 235, 235);
+}
+
+#prediction {
+    background-color: #2c234b;
+    height: 80px;
+    color: white;
+    width: 100%;
+    margin: 50px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 7px 5px #cecdcd;
+}
+
+.footer {
+    background-color: #2c234b;
+    height: 500px;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+.footer p, .footer li, .footer h3{
+    padding: 0 50px;
+}
+
+.RollNo {
+    gap: 40px;
+}
